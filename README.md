@@ -2,7 +2,7 @@
 
 Welcome to my Cybersecurity Portfolio repository! This collection showcases a series of projects and exercises completed as part of my journey through the Google Cybersecurity course and my own personal projects. Each project is designed to demonstrate proficiency in key areas of cybersecurity, including SQL, Linux, auditing, and more.
 
-# As of October 8 2024, the majority of projects are from my time with the Google Cybersecurity course. As of finishing the course, I plan to set up my own home lab with a SIEM in order to further my personal development in cybersecurity.
+As of October 8 2024, the majority of projects are from my time with the Google Cybersecurity course. As of finishing the course, I plan to set up my own home lab with a SIEM in order to further my personal development in cybersecurity.
 
 ## Repository Structure
 
