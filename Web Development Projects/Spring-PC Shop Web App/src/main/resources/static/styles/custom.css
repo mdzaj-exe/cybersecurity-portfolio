@@ -1,0 +1,71 @@
+/* custom.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.table {
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+.btn-about {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+}
+
+.btn-about:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+.btn-cart {
+    position: relative;
+    float: right;
+
+}

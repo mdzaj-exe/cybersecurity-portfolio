@@ -1,0 +1,8 @@
+target/*
+!.mvn/wrapper
+!.dockerignore
+.git
+.idea
+.DS_Store
+node_modules
+*.md
