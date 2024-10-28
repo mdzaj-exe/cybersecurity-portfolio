@@ -26,6 +26,6 @@ As of October 8 2024, the majority of projects are from my time with the Google 
 
 ## Contact
 
-If you have any questions or would like to discuss any of these projects further, feel free to reach out via [Your Email] or connect with me on [LinkedIn](Your LinkedIn URL).
+If you have any questions or would like to discuss any of these projects further, feel free to reach out via ajwint.cs@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/aj-in-cs/).
 
 Thank you for visiting my Cybersecurity Portfolio!
