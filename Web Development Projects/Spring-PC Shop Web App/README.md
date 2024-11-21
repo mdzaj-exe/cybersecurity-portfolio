@@ -1,29 +1,67 @@
-<strong>**DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. **</strong>
+# Computer Shop Inventory Management System
 
-# WESTERN GOVERNORS UNIVERSITY 
-## D424 – SOFTWARE ENGINEERING CAPSTONE
-Welcome to Software Engineering Capstone! This is an opportunity for students to develop full stack software engineering documentation and applications. They will execute documentation, unit testing, revision of software applications, and deploy software applications with scripts and containers on a cloud platform.
+## Overview
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-BASIC INSTRUCTIONS
-For this assessment, you will deploy your developed full stack software product to a web service of your choice.
+The **Computer Shop** is a Spring Boot application designed to manage inventory for a computer store. It allows users to add, update, and manage inventory items efficiently using an intuitive web interface. This project demonstrates the use of modern web development practices with Spring Boot, Thymeleaf, and H2 Database.
 
+## Features
 
-## SUPPLEMENTAL RESOURCES  
-1.	How to clone a project to IntelliJ using Git?
+- **Inventory Management**: Add, update, delete, and view computer inventory items.
+- **User-friendly Interface**: Built with Thymeleaf for seamless user interaction.
+- **Data Validation**: Ensures accurate and valid data entry with Hibernate Validator.
+- **In-memory Database**: Uses H2 database for easy development and testing.
+- **CSV Support**: Includes support for importing and exporting data using OpenCSV.
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
+## Technologies Used
 
-2. How to create a branch and start Development?
+- **Java 17**: Latest features of the Java programming language.
+- **Spring Boot 2.6.6**: Framework for building enterprise-grade applications.
+- **Thymeleaf**: Server-side Java template engine for web applications.
+- **H2 Database**: Lightweight, in-memory database for development and testing.
+- **OpenCSV**: Library for CSV parsing and generation.
+- **Docker**: Used to containerize the application for easy deployment.
 
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
+## Prerequisites
 
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
+Before you begin, ensure you have the following installed:
 
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
+1. Java 17
+2. Maven 3.6+
+3. Docker
+4. Git (optional, for version control)
 
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-repo/computer-shop.git
+cd computer-shop
+
+Build the Application
+Use Maven to clean and package the project into a JAR file.
+
+bash
+mvn clean package
+
+Run the Application Locally
+You can run the application without Docker by using the Spring Boot plugin:
+
+bash
+mvn spring-boot:run
+
+Access the application at http://localhost:8080.
+Docker Instructions
+Build the Docker Image
+Ensure you have Docker installed and running. Use the following command to build the Docker image:
+
+bash
+docker build -t computershop-app .
+
+Run the Docker Container
+Start the application in a Docker container:
+
+bash
+docker run -p 8080:8080 computershop-app
+
+Visit http://localhost:8080 to access the application.
