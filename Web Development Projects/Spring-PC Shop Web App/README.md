@@ -34,8 +34,8 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the Repository
 
-git clone https://github.com/your-repo/computer-shop.git
-cd computer-shop
+`git clone https://github.com/your-repo/computer-shop.git`
+`cd computer-shop`
 
 ### Build the Application
 Use Maven to clean and package the project into a JAR file.
