@@ -34,34 +34,27 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/your-repo/computer-shop.git
 cd computer-shop
 
-Build the Application
+### Build the Application
 Use Maven to clean and package the project into a JAR file.
+`mvn clean package`
 
-bash
-mvn clean package
+### Run the Application Locally
+You can run the application without Docker by using the Spring Boot plugin: 
+`mvn spring-boot:run`
+Access the application at http://localhost:8080. 
 
-Run the Application Locally
-You can run the application without Docker by using the Spring Boot plugin:
+## Docker Instructions
 
-bash
-mvn spring-boot:run
+### Build the Docker Image
+Ensure you have Docker installed and running. Use the following command to build the Docker image: 
+`docker build -t computershop-app .`
 
-Access the application at http://localhost:8080.
-Docker Instructions
-Build the Docker Image
-Ensure you have Docker installed and running. Use the following command to build the Docker image:
 
-bash
-docker build -t computershop-app .
-
-Run the Docker Container
+### Run the Docker Container
 Start the application in a Docker container:
+`docker run -p 8080:8080 computershop-app`
+Visit http://localhost:8080 to access the application. 
 
-bash
-docker run -p 8080:8080 computershop-app
-
-Visit http://localhost:8080 to access the application.
